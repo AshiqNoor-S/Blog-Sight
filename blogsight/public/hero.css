@@ -48,11 +48,19 @@ h1{
     background: url("../images/page3.png") center/cover no-repeat;
 }
 
-.the-team-heading {
-    font-size: 2.2rem;
+.the-team-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-/* .trending-section{
+.the-team-heading {
+    font-size: 2.2rem;
+    color:#fff;
+}
+
+.most-trending-section{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,10 +68,15 @@ h1{
     background: url("../images/trending.png") center/cover no-repeat;
 }
 
-.trending-title{
+.most-trending-heading{
     font-size: 2.2rem;
     color: #fff;
-} */
+}
+
+.most-trending-post{
+    height: 40%;
+    background-color: blueviolet;
+}
 
 .member {
     text-align: center;
@@ -78,6 +91,6 @@ h1{
 
 .member-name {
     font-size: 1.2rem;
-    color: #000000;
+    color: white;
     font-family: 'Red Rose', cursive;
 }

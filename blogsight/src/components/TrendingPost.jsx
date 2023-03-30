@@ -4,8 +4,8 @@ function TrendingPost(props){
 	return (<div className="most-trending-post">
 			<h3 className="most-trending-post-title">{props.title}</h3>
 			<p className="most-trending-post-content">{props.content}</p>
-			<button>Start Reading</button>
-	</div>);
+			
+		</div>);
 }
 
 export default TrendingPost;
