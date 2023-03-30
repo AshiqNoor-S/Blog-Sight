@@ -14,14 +14,14 @@
     align-items: center;
 }
 
-h1{
+.page-title{
     font-size: 6rem;
     color: #fff;
 }
 
 .girl{
     position: absolute;
-    width: 275px;
+    width: 350px;
     height: 248px;
     right: 1%;
     bottom:1%;
@@ -43,6 +43,65 @@ h1{
     top:58%;
 }
 
+/* MOST TRENDING */
+
+.most-trending-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+    background: url("../images/trending.png") center/cover no-repeat;
+}
+
+.most-trending-heading{
+    font-size: 3rem;
+    color: #fff;
+    clear: right;
+}
+
+.most-trending-post{
+    height: 40%;
+    width: 50%;
+    border-radius: 15px;
+    padding: 3% 4% 4%;
+    background-color: #8878e7;
+}
+
+.most-trending-post:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+    box-shadow: 0.1px 0.1px 9px #7700ff;
+    transition: all 0.2s ease-in-out;
+}
+
+.most-trending-post-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+
+.most-trending-post-content {
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.start-reading-button {
+    color: #000;
+    font-size: 1.2rem;
+    padding: 1.5%;
+    border-radius: 30px;
+}
+
+.start-reading-button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 0.1px 0.1px 9px #7700ff;
+    transition: all 0.2s ease-in-out;
+}
+
+/* THE TEAM */
+
 .the-team-section {
     text-align: center;
     min-height: 100vh;
@@ -59,42 +118,8 @@ h1{
 }
 
 .the-team-heading {
-    font-size: 2.2rem;
+    font-size: 3rem;
     color:#fff;
-}
-
-.most-trending-section{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 100vh;
-    background: url("../images/trending.png") center/cover no-repeat;
-}
-
-.most-trending-heading{
-    font-size: 2.2rem;
-    color: #fff;
-    clear: right;
-}
-
-.most-trending-post{
-    height: 40%;
-    width: 50%;
-    border-radius: 15px;
-    padding: 3% 4% 4%;
-    background-color: blueviolet;
-}
-
-.most-trending-post-title {
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: 2%;
-}
-
-.most-trending-post-content {
-    line-height: 1.5rem;
-    margin-top: 1.5rem;
 }
 
 .member {
@@ -108,8 +133,15 @@ h1{
     height: 10rem;
 }
 
+.member-img:hover {
+    transform: scale(1.04);
+    box-shadow: 0.1px 0.1px 6px #7700ff;
+    transition: all 0.3s ease-in-out;
+}
+
 .member-name {
     font-size: 1.2rem;
     color: white;
     font-family: 'Red Rose', cursive;
+    margin-top: 5%;
 }
