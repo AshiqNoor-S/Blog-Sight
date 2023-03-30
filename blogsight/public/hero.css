@@ -46,10 +46,12 @@ h1{
 .the-team-section {
     text-align: center;
     min-height: 100vh;
+    padding-top: 10%;
     background: url("../images/page3.png") center/cover no-repeat;
 }
 
 .the-team-row{
+    padding-top: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
