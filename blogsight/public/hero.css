@@ -18,3 +18,26 @@ h1{
     color: #fff;
     font-family: 'Red Rose', cursive;
 }
+
+.member-img {
+    border-radius: 50%;
+    height: 10rem;
+}
+
+.member-name {
+    
+    font-size: 3rem;
+    color: #fff;
+    font-family: 'Red Rose', cursive;
+}
+
+.member-img {
+    border-radius: 50%;
+    height: 10rem;
+}
+
+.member-name {
+    
+    font-size: 3rem;
+    color: #fff;
+}
