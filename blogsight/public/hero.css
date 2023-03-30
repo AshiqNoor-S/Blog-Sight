@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Red Rose', cursive;
+    color: #fff;
 }
 
 .hero{
@@ -62,7 +63,8 @@ h1{
 
 .most-trending-section{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
     min-height: 100vh;
     background: url("../images/trending.png") center/cover no-repeat;
@@ -71,11 +73,26 @@ h1{
 .most-trending-heading{
     font-size: 2.2rem;
     color: #fff;
+    clear: right;
 }
 
 .most-trending-post{
     height: 40%;
+    width: 50%;
+    border-radius: 15px;
+    padding: 3% 4% 4%;
     background-color: blueviolet;
+}
+
+.most-trending-post-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+
+.most-trending-post-content {
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
 }
 
 .member {
