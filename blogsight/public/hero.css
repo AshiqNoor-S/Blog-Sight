@@ -18,13 +18,28 @@ h1{
     color: #fff;
 }
 
+.the-team-section {
+    width: 60%;
+    text-align: center;
+    margin: 2% auto;
+}
+
+.the-team-heading {
+    font-size: 2.2rem;
+}
+
+.member {
+    text-align: center;
+    float: left;
+    margin: 1% 7.4%;
+}
+
 .member-img {
     border-radius: 50%;
     height: 10rem;
 }
 
 .member-name {
-    
     font-size: 1.2rem;
     color: #000000;
 }
