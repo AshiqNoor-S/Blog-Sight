@@ -14,15 +14,31 @@
 }
 
 h1{
-    font-size: 3rem;
+    font-size: 6rem;
     color: #fff;
 }
 .girl{
     position: absolute;
+    width: 485px;
+    height: 248px;
+    right: 1%;
+    bottom:1%;
+}
+
+.gadget{
+    position: absolute;
+    width: 345px;
+    height: 268px;
+    left: 1%;
+    top:1%;
+}
+
+.beat{
+    position: absolute;
     width: 585px;
-    height: 288px;
-    left: 1583px;
-    top: 1386px;
+    height: 258px;
+    left: 30%;
+    top:58%;
 }
 
 .the-team-section {
