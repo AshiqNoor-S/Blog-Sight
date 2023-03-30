@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Red Rose', cursive;
 }
 
 .hero{
@@ -16,7 +16,14 @@
 h1{
     font-size: 3rem;
     color: #fff;
-    font-family: 'Red Rose', cursive;
+}
+
+.girl{
+    position: absolute;
+    width: 585px;
+    height: 288px;
+    left: 1583px;
+    top: 1386px;
 }
 
 .member-img {
