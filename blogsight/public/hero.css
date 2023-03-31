@@ -145,3 +145,68 @@
     font-family: 'Red Rose', cursive;
     margin-top: 5%;
 }
+
+/* Footer */
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: #8878e7;
+    padding: 0% 5% 1.5%;
+}
+
+.reach-out-column {
+    width: 33%;
+    float: left;
+    
+}
+
+.reach-out-text {
+    font-size: 1.6rem;
+}
+
+.reach-out-icons-row {
+
+}
+
+.reach-out-centre-column {
+    width: 33%;
+    float: left;
+    margin-top: 6%;
+}
+
+.company-name {
+    font-size: 3rem;
+}
+
+.copyright-text {
+    margin-top: 5%;
+    font-weight: 100;
+}
+
+.reach-out-contact-column {
+    width: 33%;
+    float: left;
+}
+
+.contact-us-text {
+    font-size: 1.6rem;
+}
+
+.contact-us-icons-row {
+
+}
+
+.footer i {
+    /* color: #000; */
+    margin: 2%;
+}
+
+.footer i:hover {
+    transform: scale(1.1);
+    color: #7700ff;
+    transition: all 0.1s ease-in-out;
+}
