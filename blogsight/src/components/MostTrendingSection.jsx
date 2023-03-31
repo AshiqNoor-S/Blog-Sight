@@ -1,6 +1,5 @@
 import React from "react";
 import TrendingPost from "./TrendingPost";
-import Blogs from "./Blogs";
 
 function MostTrendingSection(){
 	return (

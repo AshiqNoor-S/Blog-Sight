@@ -1,14 +1,21 @@
 import React from "react";
-import Hero from "./Hero";
-import MostTrendingSection from "./MostTrendingSection";
-import TeamSection from "./TeamSection";
 
 function Home(){
 	return (
-		<div>
-			<Hero />
-			<MostTrendingSection />
-			<TeamSection />
+		<div className="home-pg">
+		<h1 className="page-title"><a href="/">BlogSight</a></h1>
+		{/* <h1>Patient Monitoring | Blogs</h1> */}
+		<a href="/patient-monitoring">
+		<div className="card-option">
+			<h1 className="card-text">Patient Monitoring</h1>
+		</div>
+		</a>
+		<div class="vl"></div>
+		<a href="/blog-home">
+		<div className="card-option">
+			<h1 className="card-text">Blogs</h1>
+		</div>
+		</a>
 		</div>
 	);
 }

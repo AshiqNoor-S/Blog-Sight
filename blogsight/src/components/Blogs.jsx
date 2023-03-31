@@ -1,7 +1,7 @@
 import React from "react";
 import SearchBar from "./SearchBar";
 import BlogCard from "./BlogCard";
-import Paginator from "./Paginator";
+// import Paginator from "./Paginator";
 import blogCards from "../blog-cards";
 
 function Blogs(){
@@ -14,11 +14,11 @@ function Blogs(){
 			))}
 		</div>
 		
-		<div className="paginator-row">
+		{/* <div className="paginator-row"> */}
 		{/* <Paginator key="1" paginatorActive="1" />
 		<Paginator key="2" paginatorActive="0" />
 		<Paginator key="3" paginatorActive="0" /> */}
-		</div>
+		{/* </div> */}
 		
     </div>
 );}

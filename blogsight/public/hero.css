@@ -6,7 +6,76 @@
     color: #fff;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* HOME PAGE */
+.home-pg {
+    padding: 3% 10%;
+    background-color: #000000;
+    text-align: center;
+    padding-bottom: 40%;
+}
+
+.card-option {
+    margin-top: 5%;
+    margin-left: 9.3%;
+    margin-right: 9%;
+    height: 24rem;
+    width: 24rem;
+    border-radius: 20px;
+    background-color: #e6f6f4;
+    float: left;
+}
+
+.vl {
+    border-left: 4px solid rgb(185, 252, 2);
+    height: 23rem;
+    border-radius: 10px;
+    position: absolute;
+    float: left;
+    display: inline;
+    left: 50%;
+    top: 33%;
+}
+
+.card-text {
+    display: flex;
+    justify-content: center;
+    padding-top: 42%;
+    color: #4b0ace;
+}
+
+.home-pg .card-option:hover {
+    cursor: pointer;
+    transform: scale(1.04);
+    box-shadow: 0.1px 0.1px 15px #7700ff;
+    transition: all 0.3s ease-in-out;
+}
+
+/* PATIENT MONITORING PAGE */
+.patient-monitoring-pg {
+    padding: 3% 10%;
+    background-color: #000000;
+    text-align: center;
+    padding-bottom: 3.5%;
+}
+
+.patient-monitoring-pg h2 {
+    font-size: 2rem;
+    margin: 2% 0 3%;
+}
+
+.monitored-details-container {
+    height: 25rem;
+    width: 40rem;
+    background-color: #e6f6f4;
+    border-radius: 20px;
+    margin: auto;
+}
+
+/* BLOG HOME PAGE */
 
 .hero{
     min-height: 100vh;

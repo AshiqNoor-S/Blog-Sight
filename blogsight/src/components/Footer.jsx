@@ -13,7 +13,7 @@ function Footer(){
 				</div>
 			</div>
 			<div className="reach-out-centre-column">
-				<h1 className="company-name">BlogSight</h1>
+				<h1 className="company-name"><a href="/">BlogSight</a></h1>
 				<p className="copyright-text">Copyright &copy; BlogSight</p>
 			</div>
 			<div className="reach-out-contact-column">
