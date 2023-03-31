@@ -6,6 +6,8 @@
     color: #fff;
 }
 
+/* HOME PAGE */
+
 .hero{
     min-height: 100vh;
     background: url("../images/hero.png") center/cover no-repeat;
@@ -161,6 +163,7 @@
     text-align: center;
     background-color: #8878e7;
     padding: 0% 5% 1.5%;
+    clear: left;
 }
 
 .reach-out-column {
@@ -214,4 +217,103 @@
     transform: scale(1.1);
     color: #7700ff;
     transition: all 0.1s ease-in-out;
+}
+
+/* BLOGS PAGE */
+
+.blog-pg-heading {
+    padding-top: 3%;
+    font-size: 3.5rem;
+}
+
+.search-bar {
+    padding: 5%;
+}
+
+.search-bar input {
+    width: 25%;
+    padding: 0.3rem;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    padding-left: 2.5rem;
+    color: #8b2cf5;
+    background-color: #e6f6f4;
+}
+
+.search-bar input::placeholder {
+    position: relative;
+    padding-left: 0;
+    left: 0.07rem;
+    color: #9d6fd1;
+}
+
+.search-bar i {
+    position: relative;
+    left: 1.8rem;
+    /* top: 0.1rem; */
+    color: #8b2cf5;
+}
+
+.blogs-section {
+    /* margin: 2%; */
+    /* display: flex; */
+    /* flex-direction: row;
+    justify-content: space-around; */
+    align-items: center;
+    text-align: center;
+    background-color: #000000;
+}
+
+.blog-card-section {
+    width: 100%;
+    background-color: #00f418;
+}
+
+.blog-card {
+    background-color: #e6f6f4;
+    height: 5%;
+    width: 20%;
+    padding: 3%;
+    border-radius: 20px;
+    float: left;
+    margin: 5%;
+}
+
+.card-title {
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    background-color: #4b0ace;
+}
+
+.card-content {
+    font-size: 1rem;
+    background-color: #906bef;
+}
+
+/* Paginator */
+
+.single-paginator-active {
+    background: #0051ff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    color: #7700ff;
+    float: left;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+.single-paginator {
+    background: #ff1c1c;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    color: #7700ff;
+    float: left;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+.paginator-row {
+    margin: auto;
 }
