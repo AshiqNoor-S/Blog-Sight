@@ -266,31 +266,50 @@
 
 .blog-card-section {
     width: 100%;
-    background-color: #00f418;
+    /* background-color: #00f418; */
+    align-items: center;
+    padding-left: 10%;
 }
 
 .blog-card {
     background-color: #e6f6f4;
     height: 5%;
     width: 20%;
-    padding: 3%;
+    padding: 2%;
     border-radius: 20px;
     float: left;
-    margin: 5%;
+    margin: 2.2% 5%;
 }
 
 .card-title {
     margin-bottom: 1rem;
     font-size: 1.4rem;
     background-color: #4b0ace;
+    border-radius: 10px 10px 0 0;
+    padding: 2%;
 }
 
 .card-content {
     font-size: 1rem;
     background-color: #906bef;
+    border-radius: 0 0 10px 10px;
+    padding: 3% 10%;
 }
 
 /* Paginator */
+
+.paginator-row {
+    margin: auto;
+    clear: left;
+    /* background-color: #74de03; */
+    padding-top: 10%;
+    width: 10%;
+
+    /* width: 100%; */
+    /* background-color: #00f418; */
+    /* align-items: center; */
+    padding-left: 10%;
+}
 
 .single-paginator-active {
     background: #0051ff;
@@ -314,6 +333,3 @@
     margin-right: 0.5%;
 }
 
-.paginator-row {
-    margin: auto;
-}
