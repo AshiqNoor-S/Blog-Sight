@@ -281,6 +281,13 @@
     margin: 2.2% 5%;
 }
 
+.blog-card:hover {
+    transform: scale(1.05);
+    color: #7700ff;
+    box-shadow: 0.1px 0.1px 9px #7700ff;
+    transition: all 0.1s ease-in-out;
+}
+
 .card-title {
     margin-bottom: 1rem;
     font-size: 1.4rem;
