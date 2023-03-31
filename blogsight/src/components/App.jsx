@@ -1,15 +1,17 @@
 import React from "react";
-import Hero from "./Hero";
-import TeamSection from "./TeamSection";
-import MostTrendingSection from "./MostTrendingSection";
+import Home from "./Home";
+import Blogs from "./Blogs";
 import Footer from "./Footer";
+import { Routes, Route } from "react-router-dom";
 
 function App(){
-    return (<div>
-        <Hero />
-        <MostTrendingSection />
-        <TeamSection />
-        <Footer />
+    return (
+    <div>
+    <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/blogs" element={<Blogs />} />
+    </Routes>
+    <Footer />
     </div>
 );}
 

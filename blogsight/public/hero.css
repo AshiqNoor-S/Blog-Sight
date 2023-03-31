@@ -93,6 +93,11 @@
     border-radius: 30px;
 }
 
+.start-reading-button a {
+    text-decoration: none;
+    color: #000;
+}
+
 .start-reading-button:hover {
     cursor: pointer;
     transform: scale(1.05);
