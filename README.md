@@ -3,11 +3,11 @@
 ### Setup
 Clone this repository
 ```
-git clone https://github.com/AshiqNoor-S/Blog_Sight.git
+git clone https://github.com/med-maverick/BlogSight.git
 ```
 Go into the project directory
 ```
-cd Blog_Sight/blogsight/
+cd BlogSight/
 ```
 Install all necessary packages
 ```
