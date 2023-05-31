@@ -1,4 +1,4 @@
-# Blog_Sight
+# BlogSight
 
 ### Setup
 Clone this repository
