@@ -3,7 +3,7 @@
 ### Setup
 Clone this repository
 ```
-git clone https://github.com/med-maverick/BlogSight.git
+git clone https://github.com/AshiqNoor-S/Blog_Sight.git
 ```
 Go into the project directory
 ```
