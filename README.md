@@ -1,16 +1,23 @@
 # Blog_Sight
 
-### Instructions
-Clone it!
+### Setup
+Clone this repository
 ```
-$ git clone https://github.com/AshiqNoor-S/Blog_Sight.git
+git clone https://github.com/AshiqNoor-S/Blog_Sight.git
 ```
-Go into the project directory and run the command:
+Go into the project directory
 ```
-$ npm start
+cd Blog_Sight/blogsight/
 ```
-Runs the app in the development mode.
-Open http://localhost:3000 to view it in your browser.
+Install all necessary packages
+```
+npm install
+```
+Run the app in development mode
+```
+npm start
+```
+Open http://localhost:3000 to view it in your browser!
 
 ### Problem Statement
 The problem we are addressing is the inability to monitor and predict future health issues in a proactive manner. Traditional healthcare systems rely heavily on reactive measures, with individuals seeking medical attention only after symptoms have already presented themselves. This approach can be costly and ineffective, especially when dealing with chronic diseases that require ongoing management.
