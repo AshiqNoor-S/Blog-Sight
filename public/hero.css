@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Red Rose', cursive;
+    font-family: 'Montserrat', cursive;
     color: #fff;
 }
 
@@ -85,9 +85,57 @@ a {
     align-items: center;
 }
 
+.buttons {
+    text-align: center;
+    position: absolute;
+    top: 80%;
+    width: 30%;
+    margin: auto;
+
+}
+
+.explore-button {
+    padding: 10px 13px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    color: #000;
+    font-size: 1.3rem;
+    font-weight: 500;
+    clear: left;
+    margin: 2% 4%;
+}
+
+.explore-button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 0.1px 0.1px 9px #7700ff;
+    transition: all 0.2s ease-in-out;
+}
+
+.enlighten-button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    color: #000;
+    font-size: 1.3rem;
+    font-weight: 500;
+    clear: left;
+    margin: 2% 4%;
+}
+
+.enlighten-button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 0.1px 0.1px 9px #7700ff;
+    transition: all 0.2s ease-in-out;
+}
+
 .page-title{
-    font-size: 6rem;
+    font-size: 7rem;
     color: #fff;
+    position: absolute;
+    top: 17%;
+    font-weight: 600;
 }
 
 .girl{
@@ -110,8 +158,9 @@ a {
     position: absolute;
     width: 585px;
     height: 258px;
-    left: 30%;
-    top:58%;
+    left: 32%;
+    /* margin: auto; */
+    top:39%;
 }
 
 /* MOST TRENDING */
