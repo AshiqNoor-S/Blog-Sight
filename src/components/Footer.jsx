@@ -9,7 +9,7 @@ function Footer(){
 					<a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
 					<a href="#">
 					<i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
-					<a href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+					<a href="https://twitter.com/med_maverick" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
 				</div>
 			</div>
 			<div className="reach-out-centre-column">
