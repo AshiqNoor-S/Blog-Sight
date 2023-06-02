@@ -14,6 +14,11 @@ const members = [
 		name: "Mathew Thomas",
 		imgURL: "../images/mathew.jpeg"
 		
+	},
+	{
+		id: 4, 
+		name: "Ryan Ranjit Abraham",
+		imgURL: "../images/ryan.jpeg"
 	}
 ]
 
