@@ -8,6 +8,7 @@
 
 a {
     text-decoration: none;
+    color: #000;
 }
 
 /* HOME PAGE */
@@ -256,11 +257,14 @@ a {
 .member-img {
     border-radius: 50%;
     height: 10rem;
+    /* -webkit-filter: grayscale(0%); */
 }
 
 .member-img:hover {
     transform: scale(1.04);
     box-shadow: 0.1px 0.1px 6px #7700ff;
+    filter: blur(0.8px);
+    /* -webkit-filter: grayscale(100%); */
     transition: all 0.3s ease-in-out;
 }
 

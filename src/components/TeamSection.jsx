@@ -12,6 +12,7 @@ function TeamSection(){
                         key={member.id} 
                         name={member.name} 
                         imgURL={member.imgURL}
+                        socialsURL={member.socialsURL}
                     />
                 ))}
             </div>
