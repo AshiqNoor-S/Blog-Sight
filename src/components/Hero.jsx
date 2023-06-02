@@ -1,4 +1,6 @@
 import React from 'react';
+import { auth, provider } from "../firebase-config";
+import user from "./Login"
 
 function Hero({isAuth}){
     return (
@@ -9,8 +11,8 @@ function Hero({isAuth}){
             <img class="beat" src="../images/beat.png" alt="" />
 
             <div className="buttons">
-                {!isAuth ? <button className="explore-button"><a href="/login">Explore</a></button> : <button className="explore-button"><a href="/blogs">Explore</a></button>}
-                {!isAuth ? <button className="enlighten-button"><a href="/login_enlighten">Enlighten</a></button> : <button className="enlighten-button"><a href="/newblogpost">Enlighten</a></button>}
+                {!user ? <button id="1" className="explore-button"><a href="/login">Explore</a></button> : <button id="1" className="explore-button"><a href="/blogs">Explore</a></button>}
+                {!user ? <button id="2" className="enlighten-button"><a href="/login">Enlighten</a></button> : <button id="2" className="enlighten-button"><a href="/newblogpost">Enlighten</a></button>}
             </div>
         </div>
     );

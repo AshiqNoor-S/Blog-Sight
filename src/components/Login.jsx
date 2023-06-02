@@ -10,9 +10,11 @@ function Login({ setIsAuth }) {
       signInWithPopup(auth, provider).then((result) => {
         localStorage.setItem("isAuth", true);
         setIsAuth(true);
-        navigate("/blogs")
+        navigate("/");
       });
     };
+
+    const user = auth.currentUser;
   
     return (
       <div className="loginPage">
