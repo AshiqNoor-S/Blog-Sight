@@ -5,6 +5,7 @@ import Blogs from "./Blogs";
 import NewBlogPost from "./NewBlogPost";
 import Footer from "./Footer";
 import Login from "./Login"
+import Login_enlighten from "./Login_enlighten"
 import { Routes, Route } from "react-router-dom";
 import PatientMonitoring from "./PatientMonitoring";
 
@@ -17,6 +18,7 @@ function App(){
         {/* <Route path="/blog-home" element={<BlogHome />} /> */}
         <Route path="/" element={<BlogHome setIsAuth={isAuth} />} />
         <Route path="/login" element={<Login setIsAuth={setIsAuth} />} />
+        <Route path="/login_enlighten" element={<Login_enlighten setIsAuth={setIsAuth} />} />
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/newblogpost" element={<NewBlogPost />} />
         {/* <Route path="/patient-monitoring" element={<PatientMonitoring />} /> */}
