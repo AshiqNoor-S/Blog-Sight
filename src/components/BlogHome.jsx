@@ -3,11 +3,12 @@ import Hero from "./Hero";
 import MostTrendingSection from "./MostTrendingSection";
 import TeamSection from "./TeamSection";
 
-function BlogHome(){
+
+function BlogHome({isAuth}){
 	return (
 		<div>
 			<Hero />
-			<MostTrendingSection />
+			<MostTrendingSection isAuth={isAuth}/>
 			<TeamSection />
 		</div>
 	);

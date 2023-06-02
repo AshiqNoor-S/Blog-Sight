@@ -3,14 +3,14 @@ import { auth, provider } from "../firebase-config";
 import { signInWithPopup } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
 
-function Login({ setIsAuth }) {
+function Login_enlighten({ setIsAuth }) {
     let navigate = useNavigate();
   
     const signInWithGoogle = () => {
       signInWithPopup(auth, provider).then((result) => {
         localStorage.setItem("isAuth", true);
         setIsAuth(true);
-        navigate("/blogs")
+        navigate("/newblogpost")
       });
     };
   
@@ -24,4 +24,4 @@ function Login({ setIsAuth }) {
     );
   }
   
-  export default Login;
+  export default Login_enlighten;
