@@ -3,6 +3,8 @@ import ReactDom from "react-dom";
 import { BrowserRouter } from "react-router-dom";
 import App from "./components/App";
 
+window.name=false;
+
 
 ReactDom.render(
 	<BrowserRouter>
