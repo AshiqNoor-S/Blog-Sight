@@ -12,6 +12,10 @@ a {
 }
 
 /* HOME PAGE */
+#home-page {
+    background-image: url("/images/Med\ Maverick\ -\ Long\ scrolling\ background\ 3.png");
+}
+
 .home-pg {
     padding: 3% 10%;
     background-color: #000000;
@@ -80,7 +84,7 @@ a {
 
 .hero{
     min-height: 100vh;
-    background: url("../images/hero.png") center/cover no-repeat;
+    /* background: url("../images/hero.png") center/cover no-repeat; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -144,7 +148,7 @@ a {
     width: 350px;
     height: 248px;
     right: 1%;
-    bottom:1%;
+    bottom: 7%;
 }
 
 .gadget{
@@ -172,7 +176,7 @@ a {
     justify-content: space-around;
     align-items: center;
     min-height: 100vh;
-    background: url("../images/trending.png") center/cover no-repeat;
+    /* background: url("../images/trending.png") center/cover no-repeat; */
 }
 
 .most-trending-heading{
@@ -212,6 +216,8 @@ a {
     font-size: 1.2rem;
     padding: 1.5%;
     border-radius: 30px;
+    position: relative;
+    bottom: 15px;
 }
 
 .start-reading-button a {
@@ -232,7 +238,7 @@ a {
     text-align: center;
     min-height: 100vh;
     padding-top: 10%;
-    background: url("../images/page3.png") center/cover no-repeat;
+    /* background: url("../images/page3.png") center/cover no-repeat; */
 }
 
 .the-team-row{
@@ -383,7 +389,9 @@ a {
     justify-content: space-around; */
     align-items: center;
     text-align: center;
-    background-color: #000000;
+    /* background-color: #000000; */
+    background-image: url("/images/long_scrolling_bg.png");
+    height: 160vh;
 }
 
 .blog-card-section {

@@ -6,7 +6,7 @@ import TeamSection from "./TeamSection";
 
 function BlogHome(){
 	return (
-		<div>
+		<div id="home-page">
 			<Hero />
 			<MostTrendingSection/>
 			<TeamSection />
