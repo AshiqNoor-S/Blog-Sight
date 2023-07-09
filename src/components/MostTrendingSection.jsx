@@ -1,7 +1,8 @@
 import React from "react";
-import user from "./Login"
 import TrendingPost from "./TrendingPost";
-import { auth, provider } from "../firebase-config";
+import { auth } from "../firebase-config";
+
+const user = localStorage.getItem("auth-token");
 
 function MostTrendingSection(){
 	return (

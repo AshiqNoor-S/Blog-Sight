@@ -1,6 +1,7 @@
 import React from 'react';
 import { auth, provider } from "../firebase-config";
-import user from "./Login"
+
+const user = localStorage.getItem("auth-token");
 
 function Hero({isAuth}){
     return (
