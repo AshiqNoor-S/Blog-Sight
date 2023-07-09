@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Montserrat', cursive;
     color: #fff;
+    /* overflow: hidden; */
 }
 
 a {
@@ -13,6 +14,8 @@ a {
 
 /* HOME PAGE */
 #home-page {
+    margin: 0;
+    padding: 0;
     background-image: url("/images/long_scroll_bg.png");
 }
 
@@ -186,11 +189,12 @@ a {
 }
 
 .most-trending-post{
-    height: 40%;
-    width: 50%;
+    /* height: 40%; */
+    width: 90%;
     border-radius: 15px;
     padding: 3% 4% 4%;
     background-color: #8878e7;
+    margin: auto;
 }
 
 .most-trending-post:hover {
@@ -198,6 +202,10 @@ a {
     transform: scale(1.01);
     box-shadow: 0.1px 0.1px 9px #7700ff;
     transition: all 0.2s ease-in-out;
+}
+
+.carousel-container {
+    max-width: 54vw;
 }
 
 .most-trending-post-title {
@@ -209,6 +217,7 @@ a {
 .most-trending-post-content {
     line-height: 1.5rem;
     margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .start-reading-button {
@@ -217,7 +226,7 @@ a {
     padding: 1.5%;
     border-radius: 30px;
     position: relative;
-    bottom: 15px;
+    bottom: 25px;
 }
 
 .start-reading-button a {
