@@ -1,12 +1,11 @@
 import React from "react";
 import TrendingPost from "./TrendingPost";
 import { auth } from "../firebase-config";
-
-const user = localStorage.getItem("auth-token");
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import carouselCards from "../carousel-cards";
 import { useState } from "react";
+const user = localStorage.getItem("auth-token");
 
 function MostTrendingSection() {
     const [currentIndex, setCurrentIndex] = useState();
